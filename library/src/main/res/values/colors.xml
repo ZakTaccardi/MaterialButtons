@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/red</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorPrimaryLight">#FFCDD2</color>
+    <color name="colorAccent">#FF5252</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorDividerColor">#B6B6B6</color>
+    <color name="colorTextIcons">#FFFFFF</color>
+
+    <color name="red">#ef4b31</color>
+    <color name="redLight">#ef7a68</color>
+    <color name="tan">#9b857e</color>
+    <color name="tanLight">#ac938b</color>
+    <color name="green">#879d90</color>
+    <color name="greenLight">#9bb4a5</color>
+    <color name="grey">#999999</color>
+    <color name="greyLight">#cccccc</color>
+    <color name="white">#FFFFFF</color>
+    <color name="default_button_state">@android:color/darker_gray</color>
+    <color name="kitkat_pressed_state">#16000000</color>
+    <color name="kitkat_focused_state">#77000000</color>
+</resources>

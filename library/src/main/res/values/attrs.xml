@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialButton">
+        <!-- The color applied to framework controls in their normal state. -->
+        <!--<attr name="colorControlNormal" format="color" />-->
+
+        <!-- The color applied to framework controls in their activated (ex. checked) state. -->
+        <!--<attr name="colorControlActivated" format="color" />-->
+
+        <!-- The color applied to framework control highlights (ex. ripples, list selectors). -->
+        <!--<attr name="colorControlHighlight" format="color" />-->
+
+        <!-- The color applied to framework buttons in their normal state. -->
+        <attr name="mbColorButtonNormal" format="color" />
+
+        <!-- Default highlight color for items that are pressed. -->
+        <attr name="mbColorPressedHighlight" format="color" />
+        <!-- Default highlight color for items that are long-pressed. -->
+        <attr name="mbColorLongPressedHighlight" format="color" />
+        <!-- Default highlight color for items that are
+             focused. (Focused meaning cursor-based selection.) -->
+        <attr name="colorFocusedHighlight" format="color" />
+        <!-- Default highlight color for items that are
+             activated. (Activated meaning persistent selection.) -->
+        <!--<attr name="colorActivatedHighlight" format="color" />-->
+        <!-- Default highlight color for items in multiple selection
+             mode. -->
+        <!--<attr name="colorMultiSelectHighlight" format="color" />-->
+    </declare-styleable>
+</resources>
