@@ -73,14 +73,11 @@ public class SuperRaisedButton extends Button {
         }
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-//            RippleDrawable draw = (RippleDrawable) getContext().getApplicationContext().getResources().getDrawable(R.drawable.raised_btn);
-//            InsetDrawable inset = (InsetDrawable) draw.getDrawable(0);
-//            GradientDrawable shape = (GradientDrawable) inset.getDrawable();
-//            shape.setColor(colorButtonNormal);
-//            setBackground(draw);
-//            Drawable ripple = getPressedColorRippleDrawable(colorButtonNormal, Color.BLUE, context);
-            Drawable ripple = new RippleDrawable(getPressedColorSelector(colorButtonNormal, colorPressedHighlight), context.getResources().getDrawable(R.drawable.btn_default_mtrl_inset), null);
-            setBackground(ripple);
+            RippleDrawable draw = (RippleDrawable) getContext().getResources().getDrawable(R.drawable.raised_btn, getContext().getTheme());
+            InsetDrawable inset = (InsetDrawable) draw.getDrawable(0);
+            GradientDrawable shape = (GradientDrawable) inset.getDrawable();
+            shape.setColor(colorButtonNormal);
+            setBackground(draw);
         } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             StateListDrawable states = new StateListDrawable();
             states.addState(new int[]{android.R.attr.state_pressed}, getStateDrawable(ButtonState.PRESSED));
